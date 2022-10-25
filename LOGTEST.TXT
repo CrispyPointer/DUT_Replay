@@ -1,0 +1,4 @@
+[16:06:56:468]<INF> IMS_device_settings_changed.c:36 Notified that a setting has been changed! (first)
+[16:06:59:478]<INF> IMS_device_settings_changed.c:51 Emitting that settings have been changed!
+[16:07:01:468]<INF> device_nvm.c:57 Timer expired, will write settings to NVM
+[17:00:00:653]<INF> IMS_device_settings_changed.c:36 Notified that a setting has been changed! (first)
