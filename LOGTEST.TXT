@@ -1,4 +1,48 @@
-[16:06:56:468]<INF> IMS_device_settings_changed.c:36 Notified that a setting has been changed! (first)
-[16:06:59:478]<INF> IMS_device_settings_changed.c:51 Emitting that settings have been changed!
-[16:07:01:468]<INF> device_nvm.c:57 Timer expired, will write settings to NVM
-[17:00:00:653]<INF> IMS_device_settings_changed.c:36 Notified that a setting has been changed! (first)
+[16:06:06:922]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:08:421]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:09:921]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:11:421]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:12:921]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:14:421]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:15:922]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:17:421]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:18:921]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:20:421]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:21:921]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:23:421]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:24:922]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:26:421]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:27:921]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:29:421]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:30:921]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:32:422]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:33:921]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:35:422]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:36:921]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:38:421]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:39:934]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:41:422]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:42:921]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:44:423]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:45:921]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:47:421]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:48:921]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:50:422]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[16:06:51:924]<INF> modem.c:15 My IP address is 10.80.171.13
+[16:06:51:934]<INF> (0#��h0��N�|��:41 Modem has connection, disabling periodic checks
+[16:06:51:944]<INF> uplink_prep.c:182 Fetch OK, modem should have connection now!
+[16:06:51:953]<INF> IMS_device_settings_changed.c:36 Notified that a setting has been changed! (first)
+[16:06:51:964]<INF> uplink_prep.c:230 Received STATS, unsubscribing...
+nvram_read num: 8
+check_nv_valid.nv_bank 1,nvt: 8
+nv_flag 45494731.nv_bank 1,nvt: 8
+[NVM_INFO]check_nv_valid:NV_FLAG_1 pass 
+time_count 00000004.nv_bank 1,nvt: 8
+chksum org: BA01 ,calc: BA01
+check_nv_valid over 
+check_nv_valid.nv_bank 0,nvt: 8
+nv_flag 45494731.nv_bank 0,nvt: 8
+[NVM_INFO]check_nv_valid:NV_FLAG_1 pass 
+time_count 00000003.nv_bank 0,nvt: 8
+chksum org: BA01 ,calc: BA01
+check_nv_valid over 
