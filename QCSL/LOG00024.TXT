@@ -1,0 +1,1 @@
+[20:17:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut

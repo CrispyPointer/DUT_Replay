@@ -1,0 +1,366 @@
+nvram_read num: 8
+check_nv_valid.nv_bank 1,nvt: 8
+nv_flag 45494731.nv_bank 1,nvt: 8
+[NVM_INFO]check_nv_valid:NV_FLAG_1 pass 
+time_count 0000000E.nv_bank 1,nvt: 8
+chksum org: 825C ,calc: 825C
+check_nv_valid over 
+check_nv_valid.nv_bank 0,nvt: 8
+nv_flag 45494731.nv_bank 0,nvt: 8
+[NVM_INFO]check_nv_valid:NV_FLAG_1 pass 
+time_count 0000000D.nv_bank 0,nvt: 8
+chksum org: 825C ,calc: 825C
+check_nv_valid over 
+[20:24:25:196]<DBG> IMS_stats.c:96 Got notified that modem is currently offline!
+[20:24:25:205]<DBG> devi[20:24:25:230]<DBG> IMS_device_settings_changed.c:14 Setting 1 changed
+[20:24:25:237]<INF> IMS_device_settings_changed.c:36 Notified that a setting has been changed! (first)
+[20:24:25:246]<DBG> IMS_stats.c:96 Got notified that modem is currently offline!
+[20:24:28:246]<INF> IMS_device_settings_changed.c:51 Emitting that settings have been changed!
+[20:24:30:223]<INF> device_nvm.c:57 Timer expired, will write settings to NVM
+[20:24:30:230]<DBG> device_nvm.c:171 I would write to the NVM now!
+[20:24:30:237]<DBG> device_nvm.c:67 Identifier 1 has changed, start 0x18a11 of size 4 to be written
+[20:24:30:251]<DBG> sodaq_nvs.c:18 Managed to open s00001 for writing
+[20:24:30:258]<DBG> sodaq_nvs.c:21 Succeeded in writing 4 bytes
+[20:25:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[20:27:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[20:29:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[20:31:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[20:33:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[20:35:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[20:37:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[20:39:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[20:41:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[20:43:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[20:45:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[20:47:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[20:49:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[20:51:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[20:53:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[20:55:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[20:57:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[20:59:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:01:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:03:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:05:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:07:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:09:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:11:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:13:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:15:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:17:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:19:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:21:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:23:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:25:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:27:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:29:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:31:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:33:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:35:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:37:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:39:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:41:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:43:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:45:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:47:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:49:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:51:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:53:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:55:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:57:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[21:59:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[22:01:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[22:03:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[22:05:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[22:07:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[22:09:24:919]<DBG> app_state_machine.c:211 Timer expired, APP_INPUT_TIMER (I1) pushed
+[22:09:24:927]<DBG> app_debug.c:48 App state machine: Transition from APP_STATE_IDLE(S1) to APP_STATE_IDLE(S1) due to APP_INPUT_TIMER(I1)
+[22:09:24:940]<DBG> app_state_machine.c:261 Emitting output O2
+[22:09:24:947]<DBG> IMS_app_output_handler.c:265 Received APP_OUTPUT_IDLE_TIMEOUT
+[22:09:24:955]<DBG> IMS_app_output_handler.c:110 Sending message, trigger reason: IDLE_TIMEOUT
+[22:09:24:954]<DBG> app_debug.c:65 App state machine: Entering state APP_STATE_IDLE (S1)
+[22:09:24:971]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[22:09:24:979]<DBG> app_state_machine.c:274 Enabling the timer (I1) for 7200s
+[22:09:24:986]<DBG> app_state_machine.c:284 Enabling the seal (I2)
+[22:09:24:993]<DBG> app_state_machine.c:294 Enabling accelerometer G1 (I3)
+[22:09:25:000]<DBG> IMS_lis2de12.c:264 Request for change in INT1
+[22:09:25:007]<DBG> app_state_machine.c:199 Clearing App input queue
+[22:09:25:006]<DBG> IMS_lis2de12.c:221 Configuring motion detection on INT1
+[22:09:25:022]<DBG> IMS_lis2de12.c:264 Request for change in INT1
+[22:09:25:029]<DBG> IMS_lis2de12.c:205 Enabling motion detection on INT1
+[22:09:25:038]<DBG> IMS_uplink_listener.c:26 Trigger reason: 2
+[22:09:25:044]<DBG> device_settings.c:130 Flagging nvm that variable hu has changed
+[22:09:25:052]<DBG> device_nvm.c:242 Starting fasttimer...
+[22:09:25:058]<DBG> device_nvm.c:253 Starting slowtimer...
+[22:09:25:063]<DBG> IMS_device_settings_changed.c:14 Setting 2 changed
+[22:09:25:070]<INF> IMS_device_settings_changed.c:36 Notified that a setting has been changed! (first)
+[22:09:25:080]<INF> uplink_prep.c:185 This uplinkcounter: 65
+[22:09:25:086]<INF> uplink_prep.c:198 Requesting modem connection
+[22:09:25:092]<INF> IMS_modem.c:69 Turning on modem
+[22:09:25:097]<DBG> IMS_stats.c:82 Got notified that modem is currently active!
+[22:09:26:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:09:28:080]<INF> IMS_device_settings_changed.c:51 Emitting that settings have been changed!
+[22:09:28:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:09:29:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:09:30:058]<INF> device_nvm.c:57 Timer expired, will write settings to NVM
+[22:09:30:065]<DBG> device_nvm.c:171 I would write to the NVM now!
+[22:09:30:073]<DBG> device_nvm.c:67 Identifier 2 has changed, start 0x18a15 of size 4 to be written
+[22:09:30:087]<DBG> sodaq_nvs.c:18 Managed to open s00002 for writing
+[22:09:30:094]<DBG> sodaq_nvs.c:21 Succeeded in writing 4 bytes
+[22:09:31:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:09:32:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:09:34:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:09:35:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:09:37:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:09:38:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:09:40:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:09:41:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:09:43:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:09:44:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:09:46:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:09:47:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:09:49:398]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:09:50:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:09:52:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:09:53:898]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:09:55:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:09:56:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:09:58:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:09:59:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:01:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:02:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:04:398]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:05:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:07:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:08:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:10:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:11:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:13:398]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:14:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:16:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:17:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:19:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:20:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:22:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:23:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:25:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:26:899]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:28:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:29:898]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:31:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:32:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:34:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:35:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:37:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:38:898]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:40:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:41:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:43:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:44:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:46:398]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:47:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:49:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:50:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:52:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:53:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:55:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:56:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:58:398]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:10:59:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:01:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:02:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:04:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:05:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:07:398]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:08:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:10:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:11:898]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:13:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:14:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:16:398]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:17:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:19:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:20:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:22:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:23:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:25:044]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[22:11:25:398]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:26:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:28:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:29:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:31:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:32:898]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:34:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:35:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:37:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:38:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:40:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:41:898]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:43:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:44:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:46:398]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:47:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:49:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:50:898]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:52:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:53:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:55:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:56:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:58:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:11:59:898]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:01:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:02:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:04:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:05:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:07:398]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:08:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:10:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:11:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:13:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:14:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:16:398]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:17:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:19:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:20:898]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:22:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:23:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:25:398]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:26:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:28:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:29:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:31:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:32:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:34:398]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:35:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:37:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:38:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:40:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:41:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:43:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:44:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:46:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:47:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:49:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:50:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:52:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:53:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:55:398]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:56:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:58:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:12:59:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:01:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:02:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:04:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:05:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:07:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:08:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:10:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:11:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:13:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:14:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:16:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:17:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:19:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:20:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:22:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:23:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:25:044]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[22:13:25:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:26:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:28:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:29:898]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:31:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:32:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:34:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:35:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:37:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:38:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:40:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:41:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:43:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:44:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:46:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:47:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:49:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:50:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:52:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:53:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:55:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:56:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:58:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:13:59:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:01:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:02:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:04:399]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:05:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:07:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:08:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:10:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:11:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:13:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:14:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:16:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:17:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:19:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:20:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:22:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:23:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:25:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:26:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:28:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:29:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:31:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:32:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:34:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:35:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:37:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:38:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:40:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:41:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:43:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:44:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:46:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:47:898]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:49:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:50:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:52:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:53:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:55:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:56:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:58:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:14:59:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:01:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:02:898]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:04:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:05:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:07:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:08:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:10:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:11:898]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:13:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:14:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:16:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:17:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:19:398]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:20:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:22:398]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:23:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:25:044]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[22:15:25:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:26:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:28:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:29:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:31:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:32:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:34:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:35:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:37:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:38:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:40:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:41:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:43:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:44:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:46:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:47:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:49:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:15:50:897]<INF> IMS_modem.c:29 Modem has no CSQ yet

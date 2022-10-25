@@ -1,0 +1,13 @@
+[22:16:14:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:16:16:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:16:17:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:16:19:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:16:20:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:16:22:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:16:23:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:16:25:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:16:26:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:16:28:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:16:29:897]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:16:31:397]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[22:16:32:897]<INF> IMS_modem.c:29 Modem has no CSQ yet

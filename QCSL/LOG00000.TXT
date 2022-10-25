@@ -1,0 +1,513 @@
+AT UART SET
+[00:00:00:063]<INF> app.c:74 Last reset reason: NORMAL
+[00:00:00:064]<INF> app.c:76 Last boot reason: Boot From Power On
+[00:00:00:066]<INF> app.c:78 Last sleep state: Active state
+[00:00:00:066]<INF> app.c:80 Last wakeup source: POR
+nvram_read num: 8
+check_nv_valid.nv_bank 1,nvt: 8
+nv_flag 45494731.nv_bank 1,nvt: 8
+[NVM_INFO]check_nv_valid:NV_FLAG_1 pass 
+time_count 0000000E.nv_bank 1,nvt: 8
+chksum org: 825C ,calc: 825C
+check_nv_valid over 
+check_nv_valid.nv_bank 0,nvt: 8
+nv_flag 45494731.nv_bank 0,nvt: 8
+[NVM_INFO]check_nv_valid:NV_FLAG_1 pass 
+time_count 0000000D.nv_bank 0,nvt: 8
+chksum org: 825C ,calc: 825C
+check_nv_valid over 
+[00:00:00:209]<INF> lis2de12_LOGIC.c:35 LIS2DE12 found!
+[00:00:00:211]<DBG> lis2de12_LOGIC.c:79 10Hz
+[00:00:00:228]<DBG> device_nvm.c:76 Reading NVS...
+[00:00:00:296]<ERR> sodaq_nvs.c:56 Failed to open s00000 for reading!
+[00:00:00:303]<DBG> device_nvm.c:76 Reading NVS...
+[00:00:00:311]<DBG> sodaq_nvs.c:44 Managed to open s00001 for reading
+[00:00:00:318]<DBG> sodaq_nvs.c:47 Succeeded in reading 4 bytes
+[00:00:00:324]<DBG> IMS_device_settings_changed.c:14 Setting 1 changed
+[00:00:00:332]<INF> IMS_device_settings_changed.c:36 Notified that a setting has been changed! (first)
+[00:00:00:331]<DBG> device_nvm.c:76 Reading NVS...
+[00:00:00:350]<DBG> sodaq_nvs.c:44 Managed to open s00002 for reading
+[00:00:00:356]<DBG> sodaq_nvs.c:47 Succeeded in reading 4 bytes
+[00:00:00:363]<DBG> IMS_device_settings_changed.c:14 Setting 2 changed
+[00:00:00:370]<DBG> IMS_device_settings_changed.c:47 Notified that a setting has been changed (loopback)!
+[00:00:00:369]<INF> device_nvm.c:222 NVM now accepting new settings
+[00:00:00:392]<INF> IMS_stats.c:134 IMS Stats listener active
+[00:00:00:398]<INF> IMS_stats.c:74 Stats listener active
+[00:00:00:391]<INF> IMS_lis2de12.c:310 Listener active
+[00:00:00:410]<DBG> exti.c:96 1 maps to 4
+[00:00:00:430]<DBG> exti.c:96 0 maps to 5
+[00:00:00:456]<INF> IMS_app_output_handler.c:244 Listener active
+[00:00:00:463]<INF> app_state_machine.c:433 App request listener active
+[00:00:00:462]<INF> app_state_machine.c:361 App state machine listener active
+[00:00:00:477]<DBG> app_state_machine.c:440 Received request to start
+[00:00:00:483]<DBG> app_debug.c:48 App state machine: Transition from APP_STATE_STARTUP(S0) to APP_STATE_IDLE(S1) due to APP_INPUT_START(I0)
+[00:00:00:497]<DBG> app_state_machine.c:261 Emitting output O0
+[00:00:00:503]<DBG> IMS_app_output_handler.c:257 Received APP_OUTPUT_STARTUP
+[00:00:00:511]<DBG> IMS_app_output_handler.c:56 Sending message, trigger reason: STARTUP
+[00:00:00:510]<DBG> app_debug.c:65 App state machine: Entering state APP_STATE_IDLE (S1)
+[00:00:00:527]<DBG> app_state_machine.c:274 Enabling the timer (I1) for 7200s
+[00:00:00:535]<DBG> app_state_machine.c:284 Enabling the seal (I2)
+[00:00:00:541]<DBG> app_state_machine.c:294 Enabling accelerometer G1 (I3)
+[00:00:00:548]<DBG> IMS_lis2de12.c:264 Request for change in INT1
+[00:00:00:555]<DBG> app_state_machine.c:199 Clearing App input queue
+[00:00:00:561]<DBG> IMS_lis2de12.c:226 Config updated on INT1, but not applied as interrupt is inactive. Will be applied when activated
+[00:00:00:574]<DBG> IMS_lis2de12.c:264 Request for change in INT1
+[00:00:00:580]<DBG> IMS_lis2de12.c:205 Enabling motion detection on INT1
+[00:00:00:590]<DBG> IMS_uplink_listener.c:43 Uplink listener active
+[00:00:00:596]<DBG> IMS_uplink_listener.c:26 Trigger reason: 0
+[00:00:00:602]<DBG> device_settings.c:130 Flagging nvm that variable hu has changed
+[00:00:00:610]<DBG> device_nvm.c:242 Starting fasttimer...
+[00:00:00:616]<DBG> device_nvm.c:253 Starting slowtimer...
+[00:00:00:622]<DBG> IMS_device_settings_changed.c:14 Setting 2 changed
+[00:00:00:629]<DBG> IMS_device_settings_changed.c:47 Notified that a setting has been changed (loopback)!
+[00:00:00:639]<INF> uplink_prep.c:185 This uplinkcounter: 6
+[00:00:00:645]<INF> uplink_prep.c:198 Requesting modem connection
+[00:00:00:651]<INF> IMS_modem.c:69 Turning on modem
+[00:00:00:656]<DBG> IMS_stats.c:82 Got notified that modem is currently active!
+[00:00:00:665]<INF> modem.c:65 Set bands!
+[00:00:00:670]<INF> modem.c:75 Read bands!
+[00:00:00:674]<INF> modem.c:83 Current bands: 2 3 4 8 12 17 20 26 
+[00:00:00:737]<INF> modem.c:95 Setting APN OK, "internet.gma.iot"
+[00:00:00:744]<DBG> IMS_exti.c:42 Emitting EINT1
+[00:00:00:750]<DBG> IMS_lis2de12.c:182 MOTION
+[00:00:00:749]<DBG> app_state_machine.c:466 Received accelerometer interrupt 1
+[00:00:00:761]<DBG> app_debug.c:48 App state machine: Transition from APP_STATE_IDLE(S1) to APP_STATE_CONFIRM_BACKOFF(S2) due to APP_INPUT_ACCEL(I3)
+[00:00:00:776]<DBG> app_debug.c:65 App state machine: Entering state APP_STATE_CONFIRM_BACKOFF (S2)
+[00:00:00:785]<DBG> app_state_machine.c:274 Enabling the timer (I1) for 5s
+[00:00:00:793]<DBG> app_state_machine.c:284 Enabling the seal (I2)
+[00:00:00:799]<DBG> app_state_machine.c:337 Disabling accelerometer motion input (I3)
+[00:00:00:808]<DBG> app_state_machine.c:199 Clearing App input queue
+[00:00:00:807]<DBG> IMS_lis2de12.c:264 Request for change in INT1
+[00:00:00:820]<DBG> IMS_lis2de12.c:193 Canceling interrupts on INT1
+[00:00:02:525]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:03:639]<INF> IMS_device_settings_changed.c:51 Emitting that settings have been changed!
+[00:00:04:025]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:05:525]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:05:616]<INF> device_nvm.c:57 Timer expired, will write settings to NVM
+[00:00:05:623]<DBG> device_nvm.c:171 I would write to the NVM now!
+[00:00:05:630]<DBG> device_nvm.c:67 Identifier 2 has changed, start 0x18a15 of size 4 to be written
+[00:00:05:644]<DBG> sodaq_nvs.c:18 Managed to open s00002 for writing
+[00:00:05:651]<DBG> sodaq_nvs.c:21 Succeeded in writing 4 bytes
+[00:00:05:792]<DBG> app_state_machine.c:211 Timer expired, APP_INPUT_TIMER (I1) pushed
+[00:00:05:800]<DBG> app_debug.c:48 App state machine: Transition from APP_STATE_CONFIRM_BACKOFF(S2) to APP_STATE_MOTION_CONFIRM(S3) due to APP_INPUT_TIMER(I1)
+[00:00:05:815]<DBG> app_debug.c:65 App state machine: Entering state APP_STATE_MOTION_CONFIRM (S3)
+[00:00:05:825]<DBG> app_state_machine.c:274 Enabling the timer (I1) for 5s
+[00:00:05:832]<DBG> app_state_machine.c:284 Enabling the seal (I2)
+[00:00:05:839]<DBG> app_state_machine.c:294 Enabling accelerometer G1 (I3)
+[00:00:05:846]<DBG> IMS_lis2de12.c:264 Request for change in INT1
+[00:00:05:853]<DBG> app_state_machine.c:199 Clearing App input queue
+[00:00:05:852]<DBG> IMS_lis2de12.c:226 Config updated on INT1, but not applied as interrupt is inactive. Will be applied when activated
+[00:00:05:871]<DBG> IMS_lis2de12.c:264 Request for change in INT1
+[00:00:05:878]<DBG> IMS_lis2de12.c:205 Enabling motion detection on INT1
+[00:00:06:130]<DBG> IMS_exti.c:42 Emitting EINT1
+[00:00:06:135]<DBG> app_state_machine.c:466 Received accelerometer interrupt 1
+[00:00:06:142]<DBG> IMS_lis2de12.c:182 MOTION
+[00:00:06:147]<DBG> app_debug.c:48 App state machine: Transition from APP_STATE_MOTION_CONFIRM(S3) to APP_STATE_MOTION_BACKOFF(S4) due to APP_INPUT_ACCEL(I3)
+[00:00:06:162]<DBG> app_state_machine.c:261 Emitting output O3
+[00:00:06:169]<DBG> app_debug.c:65 App state machine: Entering state APP_STATE_MOTION_BACKOFF (S4)
+[00:00:06:168]<DBG> IMS_app_output_handler.c:269 Received APP_OUTPUT_MOTION_START
+[00:00:06:186]<DBG> IMS_app_output_handler.c:172 Skipping message, trigger reason: MOTION_START, due to motion start messages being disabled
+[00:00:06:185]<DBG> app_state_machine.c:274 Enabling the timer (I1) for 1800s
+[00:00:06:206]<DBG> app_state_machine.c:284 Enabling the seal (I2)
+[00:00:06:212]<DBG> app_state_machine.c:337 Disabling accelerometer motion input (I3)
+[00:00:06:221]<DBG> IMS_lis2de12.c:264 Request for change in INT1
+[00:00:06:227]<DBG> app_state_machine.c:199 Clearing App input queue
+[00:00:06:233]<DBG> IMS_lis2de12.c:193 Canceling interrupts on INT1
+[00:00:07:025]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:08:525]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:10:026]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:11:525]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:13:025]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:14:525]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:16:025]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:17:525]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:19:025]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:20:526]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:22:025]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:23:525]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:25:025]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:26:525]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:28:026]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:29:525]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:31:025]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:32:526]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:34:025]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:35:525]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:37:025]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:38:525]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:40:025]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:41:525]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:43:025]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:44:529]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:46:026]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:47:525]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:49:026]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:50:525]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[00:00:52:028]<INF> modem.c:15 My IP address is 10.80.186.93
+[00:00:52:038]<INF> Bˇ∆ÛBS„d Û
+CÍ∆##e m·lblq˜é˝†l`ˆ≤ÿfˆ¬›ê≥´ÎÖC¯@å´ÎÖblC¯<ú´ÎÖC¯8,´ÎÖC¯4l´ÎÖ!C¯0¨®fˆ‹⁄ö´ÎÖC¯,,ö´ÎÖC¯(,
+!:41 Modem has connection, disabling periodic checks
+[00:00:52:058]<INF> uplink_prep.c:205 Fetch OK, modem should have connection now!
+[00:00:52:069]<INF> IMS_lis2de12_aggregator.c:117 Got request to start aggregating...
+[00:00:52:077]<DBG> IMS_lis2de12_aggregator.c:127 Flagging aggregator to start...
+[00:00:52:087]<DBG> IMS_modem_info.c:94 Got request for update!
+[00:00:52:094]<DBG> IMS_adc.c:42 Got reading 0 2590
+[00:00:52:103]<DBG> IMS_lis2de12.c:280 Request for change in periodic updates
+[00:00:52:111]<DBG> IMS_lis2de12.c:133 Starting periodic requests
+nvram_read num: 8
+[00:00:52:133]<INF> uplink_prep.c:274 Received Temperature, unsubscribing...
+check_nv_valid.nv_bank 1,nvt: 8
+nv_flag 45494731.nv_bank 1,nvt: 8
+[NVM_INFO]check_nv_valid:NV_FLAG_1 pass 
+time_count 0000000E.nv_bank 1,nvt: 8
+chksum org: 825C ,calc: 825C
+check_nv_valid over 
+check_nv_valid.nv_bank 0,nvt: 8
+nv_flag 45494731.nv_bank 0,nvt: 8
+[NVM_INFO]check_nv_valid:NV_FLAG_1 pass 
+time_count 0000000D.nv_bank 0,nvt: 8
+chksum org: 825C ,calc: 825C
+check_nv_valid over 
+[00:00:52:257]<INF> modem_info.c:44 IMEI 866207050100266
+[00:00:52:265]<INF> modem_info.c:57 ICCID 89430301722116823285
+[00:00:52:278]<DBG> IMS_modem_info.c:69 Emitting 'all' Message
+[00:00:52:284]<INF> uplink_prep.c:244 Received MODEMINFO, unsubscribing...
+[00:00:52:285]<DBG> IMS_modem_info.c:22 Emitting IMEI
+[00:00:52:311]<DBG> IMS_lis2de12.c:253 Request for XYZ
+[00:00:52:317]<DBG> lis2de12_LOGIC.c:195 Accelerometer is on!
+[00:00:52:324]<DBG> lis2de12_LOGIC.c:224 Trying to get xyz...
+[00:00:52:331]<DBG> lis2de12_LOGIC.c:228 OK 0!
+[00:00:52:336]<DBG> IMS_lis2de12_aggregator.c:43 7 samples to go!
+[00:00:52:411]<DBG> IMS_lis2de12.c:253 Request for XYZ
+[00:00:52:419]<DBG> lis2de12_LOGIC.c:195 Accelerometer is on!
+[00:00:52:427]<DBG> lis2de12_LOGIC.c:224 Trying to get xyz...
+[00:00:52:433]<DBG> lis2de12_LOGIC.c:228 OK 0!
+[00:00:52:440]<DBG> IMS_lis2de12_aggregator.c:43 6 samples to go!
+[00:00:52:511]<DBG> IMS_lis2de12.c:253 Request for XYZ
+[00:00:52:518]<DBG> lis2de12_LOGIC.c:195 Accelerometer is on!
+[00:00:52:525]<DBG> lis2de12_LOGIC.c:224 Trying to get xyz...
+[00:00:52:533]<DBG> lis2de12_LOGIC.c:228 OK 0!
+[00:00:52:538]<DBG> IMS_lis2de12_aggregator.c:43 5 samples to go!
+[00:00:52:611]<DBG> IMS_lis2de12.c:253 Request for XYZ
+[00:00:52:618]<DBG> lis2de12_LOGIC.c:195 Accelerometer is on!
+[00:00:52:624]<DBG> lis2de12_LOGIC.c:224 Trying to get xyz...
+[00:00:52:632]<DBG> lis2de12_LOGIC.c:228 OK 0!
+[00:00:52:637]<DBG> IMS_lis2de12_aggregator.c:43 4 samples to go!
+[00:00:52:711]<DBG> IMS_lis2de12.c:253 Request for XYZ
+[00:00:52:717]<DBG> lis2de12_LOGIC.c:195 Accelerometer is on!
+[00:00:52:725]<DBG> lis2de12_LOGIC.c:224 Trying to get xyz...
+[00:00:52:731]<DBG> lis2de12_LOGIC.c:228 OK 0!
+[00:00:52:737]<DBG> IMS_lis2de12_aggregator.c:43 3 samples to go!
+[00:00:52:811]<DBG> IMS_lis2de12.c:253 Request for XYZ
+[00:00:52:817]<DBG> lis2de12_LOGIC.c:195 Accelerometer is on!
+[00:00:52:824]<DBG> lis2de12_LOGIC.c:224 Trying to get xyz...
+[00:00:52:831]<DBG> lis2de12_LOGIC.c:228 OK 0!
+[00:00:52:838]<DBG> IMS_lis2de12_aggregator.c:43 2 samples to go!
+[00:00:52:911]<DBG> IMS_lis2de12.c:253 Request for XYZ
+[00:00:52:918]<DBG> lis2de12_LOGIC.c:195 Accelerometer is on!
+[00:00:52:925]<DBG> lis2de12_LOGIC.c:224 Trying to get xyz...
+[00:00:52:934]<DBG> lis2de12_LOGIC.c:228 OK 0!
+[00:00:52:939]<DBG> IMS_lis2de12_aggregator.c:43 1 samples to go!
+[00:00:53:011]<DBG> IMS_lis2de12.c:253 Request for XYZ
+[00:00:53:017]<DBG> lis2de12_LOGIC.c:195 Accelerometer is on!
+[00:00:53:024]<DBG> lis2de12_LOGIC.c:224 Trying to get xyz...
+[00:00:53:032]<DBG> lis2de12_LOGIC.c:228 OK 0!
+[00:00:53:037]<DBG> IMS_lis2de12_aggregator.c:43 0 samples to go!
+[00:00:53:111]<DBG> IMS_lis2de12.c:253 Request for XYZ
+[00:00:53:117]<DBG> lis2de12_LOGIC.c:195 Accelerometer is on!
+[00:00:53:126]<DBG> lis2de12_LOGIC.c:224 Trying to get xyz...
+[00:00:53:133]<DBG> lis2de12_LOGIC.c:228 OK 0!
+[00:00:53:138]<DBG> IMS_lis2de12.c:280 Request for change in periodic updates
+[00:00:53:147]<DBG> IMS_lis2de12.c:136 Stopping periodic requests
+[00:00:53:155]<DBG> IMS_adc.c:42 Got reading 5 377
+[00:00:53:162]<INF> IMS_batt.c:67 Raw result: 377
+[00:00:53:167]<DBG> IMS_batt.c:69 Calibrated RAW: 126
+[00:00:53:175]<DBG> IMS_batt.c:78 Final: 856 856
+[00:00:53:180]<DBG> IMS_adc.c:70 Configured channel and set async read, awaiting result...
+[00:00:53:191]<INF> uplink_prep.c:267 Received Battery, unsubscribing...
+[00:00:53:199]<INF> IMS_lis2de12_aggregator.c:77 Going back to inactive, waiting for aggregate request...
+[00:00:53:211]<INF> uplink_prep.c:237 Received ACCELERO (XYZ), unsubscribing...
+[00:00:53:220]<INF> uplink_prep.c:310 Done collecting from modules
+[00:00:53:227]<DBG> cbor_uplink.c:33 Counted 9 valid toplevel fields
+[00:00:53:236]<ERR> cbor_uplink.c:115 Adding seal info!
+[00:00:53:242]<INF> uplink_prep.c:336 Sending telemetry to qcsl-data.sodaq.com:12070
+[00:00:53:254]<DBG> IMS_transceive.c:171 Request for sending to qcsl-data.sodaq.com:12070
+[00:00:53:269]<INF> modem.c:15 My IP address is 10.80.186.93
+[00:00:53:275]<INF> Bˇ∆ÛBS„d Û
+CÍ∆##e m·lblq˜é˝†l`ˆ≤ÿfˆ¬›ê≥´ÎÖC¯@å´ÎÖblC¯<ú´ÎÖC¯8,´ÎÖC¯4l´ÎÖ!C¯0¨®fˆ‹⁄ö´ÎÖC¯,,ö´ÎÖC¯(,
+!:41 Modem has connection, disabling periodic checks
+[00:00:53:296]<DBG> socket.c:16 Got socket 0
+
+[00:00:53:312]<INF> uplink_prep.c:351 CBOR payload:
+a96170a3617419020f6163066172006176a2617000627377830000016164a461651b000313cf8b85ee2a61731b0000d3081858f59861637438393433303330313732323131363832333238356170781f696e7465726e65742e676d612e696f742e4d4e433030332e4d43433233322e6163b1617419cc4c616318cc616e106172096162086161190e446263741905056263691a057b7a676270690b627270386162727127617300626365006265630062706100627074198ca06270640a6169a4617419cba2616d1902c2616418346173181b627362a2617419cfa36162190358627374a2617419cb7e6163190a28627361a6617419cfa361730a616419041c6178385961792b617a1903fb627373a2617419cb9e616300
+[00:00:54:342]<DBG> socket.c:49 Host: qcsl-data.sodaq.com
+[00:00:54:349]<DBG> socket.c:59 IPv4 address: 54.155.156.145 (qcsl-data.sodaq.com)
+[00:00:54:361]<DBG> IMS_transceive.c:221 Trying to send to qcsl-data.sodaq.com:12070
+[00:00:54:373]<INF> socket.c:69 Sending UDP message of 279 bytes over socket 0...
+[00:00:54:389]<DBG> socket.c:77 Message sent
+[00:00:54:393]<DBG> IMS_transceive.c:227 Tranmission successful
+[00:00:54:400]<INF> IMS_modem.c:87 Turning off modem
+[00:00:55:130]<INF> IMS_device_settings_changed.c:51 Emitting that settings have been changed!
+nvram_read num: 8
+check_nv_valid.nv_bank 1,nvt: 8
+nv_flag 45494731.nv_bank 1,nvt: 8
+[NVM_INFO]check_nv_valid:NV_FLAG_1 pass 
+time_count 0000000E.nv_bank 1,nvt: 8
+chksum org: 825C ,calc: 825C
+check_nv_valid over 
+check_nv_valid.nv_bank 0,nvt: 8
+nv_flag 45494731.nv_bank 0,nvt: 8
+[NVM_INFO]check_nv_valid:NV_FLAG_1 pass 
+time_count 0000000D.nv_bank 0,nvt: 8
+chksum org: 825C ,calc: 825C
+check_nv_valid over 
+[00:00:55:331]<DBG> IMS_stats.c:96 Got notified that modem is currently offline!
+[00:00:55:339]<DBG> device_settings.c:130 Flagging nvm that variable hu has changed
+[00:00:55:347]<DBG> device_nvm.c:242 Starting fasttimer...
+[00:00:55:353]<DBG> device_nvm.c:258 Slowtimer already running...
+[00:00:55:359]<DBG> IMS_device_settings_changed.c:14 Setting 1 changed
+[00:00:55:366]<INF> IMS_device_settings_changed.c:36 Notified that a setting has been changed! (first)
+[00:00:58:376]<INF> IMS_device_settings_changed.c:51 Emitting that settings have been changed!
+[00:01:00:353]<INF> device_nvm.c:57 Timer expired, will write settings to NVM
+[00:01:00:360]<DBG> device_nvm.c:171 I would write to the NVM now!
+[00:01:00:367]<DBG> device_nvm.c:67 Identifier 1 has changed, start 0x18a11 of size 4 to be written
+[00:01:00:380]<DBG> sodaq_nvs.c:18 Managed to open s00001 for writing
+[00:01:00:387]<DBG> sodaq_nvs.c:21 Succeeded in writing 4 bytes
+[00:02:06:240]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:04:06:240]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:06:06:240]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:08:06:240]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:10:06:240]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:12:06:240]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:14:06:240]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:16:06:240]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:18:06:240]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:20:06:240]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:22:06:240]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:24:06:240]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:26:06:240]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:28:06:240]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:30:06:206]<DBG> app_state_machine.c:211 Timer expired, APP_INPUT_TIMER (I1) pushed
+[00:30:06:214]<DBG> app_debug.c:48 App state machine: Transition from APP_STATE_MOTION_BACKOFF(S4) to APP_STATE_MOTION_IDLE(S5) due to APP_INPUT_TIMER(I1)
+[00:30:06:229]<DBG> app_debug.c:65 App state machine: Entering state APP_STATE_MOTION_IDLE (S5)
+[00:30:06:238]<DBG> app_state_machine.c:274 Enabling the timer (I1) for 1800s
+[00:30:06:240]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:30:06:252]<DBG> app_state_machine.c:284 Enabling the seal (I2)
+[00:30:06:259]<DBG> app_state_machine.c:294 Enabling accelerometer G1 (I3)
+[00:30:06:266]<DBG> IMS_lis2de12.c:264 Request for change in INT1
+[00:30:06:273]<DBG> app_state_machine.c:199 Clearing App input queue
+[00:30:06:279]<DBG> IMS_lis2de12.c:226 Config updated on INT1, but not applied as interrupt is inactive. Will be applied when activated
+[00:30:06:292]<DBG> IMS_lis2de12.c:264 Request for change in INT1
+[00:30:06:298]<DBG> IMS_lis2de12.c:205 Enabling motion detection on INT1
+[00:32:06:307]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:34:06:307]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:36:06:307]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:38:06:307]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:40:06:307]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:42:06:307]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:44:06:307]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:46:06:307]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:48:06:307]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:50:06:307]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:52:06:307]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:54:06:307]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:56:06:307]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[00:58:06:307]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[01:00:06:252]<DBG> app_state_machine.c:211 Timer expired, APP_INPUT_TIMER (I1) pushed
+[01:00:06:260]<DBG> app_debug.c:48 App state machine: Transition from APP_STATE_MOTION_IDLE(S5) to APP_STATE_BACKOFF(S6) due to APP_INPUT_TIMER(I1)
+[01:00:06:274]<DBG> app_state_machine.c:261 Emitting output O4
+[01:00:06:281]<DBG> IMS_app_output_handler.c:273 Received APP_OUTPUT_MOTION_STOP
+[01:00:06:289]<DBG> IMS_app_output_handler.c:186 Sending message, trigger reason: MOTION_STOP
+[01:00:06:288]<DBG> app_debug.c:65 App state machine: Entering state APP_STATE_BACKOFF (S6)
+[01:00:06:306]<DBG> app_state_machine.c:274 Enabling the timer (I1) for 120s
+[01:00:06:307]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[01:00:06:320]<DBG> app_state_machine.c:284 Enabling the seal (I2)
+[01:00:06:327]<DBG> app_state_machine.c:337 Disabling accelerometer motion input (I3)
+[01:00:06:335]<DBG> IMS_lis2de12.c:264 Request for change in INT1
+[01:00:06:342]<DBG> IMS_lis2de12.c:193 Canceling interrupts on INT1
+[01:00:06:341]<DBG> app_state_machine.c:199 Clearing App input queue
+[01:00:06:355]<DBG> IMS_uplink_listener.c:26 Trigger reason: 4
+[01:00:06:361]<DBG> device_settings.c:130 Flagging nvm that variable hu has changed
+[01:00:06:369]<DBG> device_nvm.c:242 Starting fasttimer...
+[01:00:06:375]<DBG> device_nvm.c:253 Starting slowtimer...
+[01:00:06:381]<DBG> IMS_device_settings_changed.c:14 Setting 2 changed
+[01:00:06:387]<INF> IMS_device_settings_changed.c:36 Notified that a setting has been changed! (first)
+[01:00:06:397]<INF> uplink_prep.c:185 This uplinkcounter: 7
+[01:00:06:403]<INF> uplink_prep.c:198 Requesting modem connection
+[01:00:06:409]<INF> IMS_modem.c:69 Turning on modem
+[01:00:06:414]<DBG> IMS_stats.c:82 Got notified that modem is currently active!
+[01:00:08:214]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[01:00:09:397]<INF> IMS_device_settings_changed.c:51 Emitting that settings have been changed!
+[01:00:09:714]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[01:00:11:217]<INF> modem.c:15 My IP address is 10.95.60.32
+[01:00:11:225]<INF> Bˇ∆ÛBS„d Û
+CÍ∆##e m·lblq˜é˝†l`ˆ≤ÿfˆ¬›ê≥´ÎÖC¯@å´ÎÖblC¯<ú´ÎÖC¯8,´ÎÖC¯4l´ÎÖ!C¯0¨®fˆ‹⁄ö´ÎÖC¯,,ö´ÎÖC¯(,
+!:41 Modem has connection, disabling periodic checks
+[01:00:11:246]<INF> uplink_prep.c:205 Fetch OK, modem should have connection now!
+[01:00:11:257]<INF> IMS_lis2de12_aggregator.c:117 Got request to start aggregating...
+[01:00:11:267]<DBG> IMS_modem_info.c:94 Got request for update!
+nvram_read num: 8
+[01:00:11:280]<INF> gtp.c:84 Attempting GTP location
+[01:00:11:287]<DBG> IMS_lis2de12.c:280 Request for change in periodic updates
+[01:00:11:295]<DBG> IMS_lis2de12.c:133 Starting periodic requests
+check_nv_vali[01:00:11:383]<INF> uplink_prep.c:274 Received Temperature, unsubscribing...
+d.nv_b[01:00:11:393]<INF> uplink_prep.c:288 Received STATS, unsubscribing...
+[01:00:11:401]<DBG> IMS_lis2de12.c:253 Request for XYZ
+[01:00:11:407]<DBG> lis2de12_LOGIC.c:195 Accelerometer is on!
+[01:00:11:415]<DBG> lis2de12_LOGIC.c:224 Trying to get xyz...
+[01:00:11:422]<DBG> lis2de12_LOGIC.c:228 OK 0!
+ank 1,nvt: 8
+nv_flag 45494731.nv_bank 1,nvt: 8
+[NVM_INFO]check_nv_valid:NV_FLAG_1 pass 
+time_count 0000000E.nv_bank 1,nvt: 8
+chksum org: 825C ,calc: 825C
+check_nv_valid over 
+check_nv_valid.nv_bank 0,nvt: 8
+nv_flag 45494731.nv_bank 0,nvt: 8
+[NVM_INFO]check_nv_valid:NV_FLAG_1 pass 
+time_count 0000000D.nv_bank 0,nvt: 8
+chksum org: 825C ,calc: 825C
+check_nv_valid over 
+[01:00:11:470]<INF> modem_info.c:44 IMEI 866207050100266
+[01:00:11:479]<INF> modem_info.c:57 ICCID 89430301722116823285
+[01:00:11:489]<DBG> IMS_modem_info.c:69 Emitting 'all' Message
+[01:00:11:497]<DBG> IMS_lis2de12.c:253 Request for XYZ
+[01:00:11:503]<DBG> lis2de12_LOGIC.c:195 Accelerometer is on!
+[01:00:11:512]<DBG> lis2de12_LOGIC.c:224 Trying to get xyz...
+[01:00:11:519]<DBG> lis2de12_LOGIC.c:228 OK 0!
+[01:00:11:526]<DBG> IMS_lis2de12_aggregator.c:43 7 samples to go!
+[01:00:11:533]<DBG> IMS_modem_info.c:22 Emitting IMEI
+[01:00:11:532]<INF> uplink_prep.c:244 Received MODEMINFO, unsubscribing...
+[01:00:11:594]<DBG> IMS_lis2de12.c:253 Request for XYZ
+[01:00:11:600]<DBG> lis2de12_LOGIC.c:195 Accelerometer is on!
+[01:00:11:608]<DBG> lis2de12_LOGIC.c:224 Trying to get xyz...
+[01:00:11:614]<DBG> lis2de12_LOGIC.c:228 OK 0!
+[01:00:11:620]<DBG> IMS_lis2de12_aggregator.c:43 6 samples to go!
+[01:00:11:694]<DBG> IMS_lis2de12.c:253 Request for XYZ
+[01:00:11:703]<DBG> lis2de12_LOGIC.c:195 Accelerometer is on!
+[01:00:11:709]<DBG> lis2de12_LOGIC.c:224 Trying to get xyz...
+[01:00:11:716]<DBG> lis2de12_LOGIC.c:228 OK 0!
+[01:00:11:723]<DBG> IMS_lis2de12_aggregator.c:43 5 samples to go!
+[01:00:11:794]<DBG> IMS_lis2de12.c:253 Request for XYZ
+[01:00:11:802]<DBG> lis2de12_LOGIC.c:195 Accelerometer is on!
+[01:00:11:808]<DBG> lis2de12_LOGIC.c:224 Trying to get xyz...
+[01:00:11:817]<DBG> lis2de12_LOGIC.c:228 OK 0!
+[01:00:11:822]<DBG> IMS_lis2de12_aggregator.c:43 4 samples to go!
+[01:00:11:894]<DBG> IMS_lis2de12.c:253 Request for XYZ
+[01:00:11:900]<DBG> lis2de12_LOGIC.c:195 Accelerometer is on!
+[01:00:11:909]<DBG> lis2de12_LOGIC.c:224 Trying to get xyz...
+[01:00:11:915]<DBG> lis2de12_LOGIC.c:228 OK 0!
+[01:00:11:920]<DBG> IMS_lis2de12_aggregator.c:43 3 samples to go!
+[01:00:11:994]<DBG> IMS_lis2de12.c:253 Request for XYZ
+[01:00:12:000]<DBG> lis2de12_LOGIC.c:195 Accelerometer is on!
+[01:00:12:009]<DBG> lis2de12_LOGIC.c:224 Trying to get xyz...
+[01:00:12:016]<DBG> lis2de12_LOGIC.c:228 OK 0!
+[01:00:12:024]<DBG> IMS_lis2de12_aggregator.c:43 2 samples to go!
+[01:00:12:094]<DBG> IMS_lis2de12.c:253 Request for XYZ
+[01:00:12:101]<DBG> lis2de12_LOGIC.c:195 Accelerometer is on!
+[01:00:12:108]<DBG> lis2de12_LOGIC.c:224 Trying to get xyz...
+[01:00:12:115]<DBG> lis2de12_LOGIC.c:228 OK 0!
+[01:00:12:121]<DBG> IMS_lis2de12_aggregator.c:43 1 samples to go!
+[01:00:12:194]<DBG> IMS_lis2de12.c:253 Request for XYZ
+[01:00:12:202]<DBG> lis2de12_LOGIC.c:195 Accelerometer is on!
+[01:00:12:208]<DBG> lis2de12_LOGIC.c:224 Trying to get xyz...
+[01:00:12:217]<DBG> lis2de12_LOGIC.c:228 OK 0!
+[01:00:12:223]<DBG> IMS_lis2de12_aggregator.c:43 0 samples to go!
+[01:00:12:280]<DBG> IMS_adc.c:42 Got reading 5 378
+[01:00:12:285]<INF> IMS_batt.c:67 Raw result: 378
+[01:00:12:291]<DBG> IMS_batt.c:69 Calibrated RAW: 126
+[01:00:12:297]<DBG> IMS_lis2de12.c:253 Request for XYZ
+[01:00:12:303]<DBG> lis2de12_LOGIC.c:195 Accelerometer is on!
+[01:00:12:311]<DBG> lis2de12_LOGIC.c:224 Trying to get xyz...
+[01:00:12:318]<DBG> lis2de12_LOGIC.c:228 OK 0!
+[01:00:12:325]<DBG> IMS_batt.c:78 Final: 856 856
+[01:00:12:330]<DBG> IMS_lis2de12.c:280 Request for change in periodic updates
+[01:00:12:337]<DBG> IMS_lis2de12.c:136 Stopping periodic requests
+[01:00:12:348]<INF> uplink_prep.c:267 Received Battery, unsubscribing...
+[01:00:12:279]<DBG> IMS_adc.c:70 Configured channel and set async read, awaiting result...
+[01:00:12:366]<INF> uplink_prep.c:237 Received ACCELERO (XYZ), unsubscribing...
+[01:00:12:376]<INF> uplink_prep.c:310 Done collecting from modules
+[01:00:12:383]<DBG> cbor_uplink.c:33 Counted 9 valid toplevel fields
+[01:00:12:375]<INF> IMS_lis2de12_aggregator.c:77 Going back to inactive, waiting for aggregate request...
+[01:00:12:402]<ERR> cbor_uplink.c:115 Adding seal info!
+[01:00:12:410]<INF> uplink_prep.c:336 Sending telemetry to qcsl-data.sodaq.com:12070
+[01:00:12:420]<DBG> IMS_transceive.c:171 Request for sending to qcsl-data.sodaq.com:12070
+[01:00:12:433]<INF> modem.c:15 My IP address is 10.95.60.32
+[01:00:12:441]<INF> Bˇ∆ÛBS„d Û
+CÍ∆##e m·lblq˜é˝†l`ˆ≤ÿfˆ¬›ê≥´ÎÖC¯@å´ÎÖblC¯<ú´ÎÖC¯8,´ÎÖC¯4l´ÎÖ!C¯0¨®fˆ‹⁄ö´ÎÖC¯,,ö´ÎÖC¯(,
+!:41 Modem has connection, disabling periodic checks
+[01:00:12:462]<DBG> socket.c:16 Got socket 0
+
+[01:00:12:478]<INF> uplink_prep.c:351 CBOR payload:
+a96170a361741a0037071a6163076172046176a2617000627377830000016164a461651b000313cf8b85ee2a61731b0000d3081858f59861637438393433303330313732323131363832333238356170781f696e7465726e65742e676d612e696f742e4d4e433030332e4d43433233322e6163b161741a00371b9b616318cc616e106172096162086161190e446263741905056263691a057b7a676270690b627270385c62727127617300626365006265630062706100627074198ca06270640a6169a461741a00371aad616d1902ca6164190e1b6173181b627362a261741a00371e776162190358627374a261741a00371a8c61631908fc627361a661741a00371ecd61730a61641904366178385c61792c617a1903fd627373a261741a00371aa9616300
+[01:00:13:347]<DBG> socket.c:49 Host: qcsl-data.sodaq.com
+[01:00:13:354]<DBG> socket.c:59 IPv4 address: 99.80.80.252 (qcsl-data.sodaq.com)
+[01:00:13:363]<DBG> IMS_transceive.c:221 Trying to send to qcsl-data.sodaq.com:12070
+[01:00:13:373]<INF> socket.c:69 Sending UDP message of 294 bytes over socket 0...
+[01:00:13:392]<DBG> socket.c:77 Message sent
+[01:00:13:397]<DBG> IMS_transceive.c:227 Tranmission successful
+[01:00:13:406]<INF> IMS_modem.c:87 Turning off modem
+nvram_read num: 8
+check_nv_valid.nv_bank 1,nvt: 8
+nv_flag 45494731.nv_bank 1,nvt: 8
+[NVM_INFO]check_nv_valid:NV_FLAG_1 pass 
+time_count 0000000E.nv_bank 1,nvt: 8
+chksum org: 825C ,calc: 825C
+check_nv_valid over 
+check_nv_valid.nv_bank 0,nvt: 8
+nv_flag 45494731.nv_bank 0,nvt: 8
+[NVM_INFO]check_nv_valid:NV_FLAG_1 pass 
+time_count 0000000D.nv_bank 0,nvt: 8
+chksum org: 825C ,calc: 825C
+check_nv_valid over 
+[01:00:14:351]<INF> IMS_device_settings_changed.c:51 Emitting that settings have been changed!
+[01:00:14:368]<DBG> IMS_stats.c:96 Got notified that modem is currently offline!
+[01:00:14:376]<DBG> device_settings.c:130 Flagging nvm that variable hu has changed
+[01:00:14:384]<DBG> device_nvm.c:242 Starting fasttimer...
+[01:00:14:389]<DBG> device_nvm.c:258 Slowtimer already running...
+[01:00:14:396]<DBG> IMS_device_settings_changed.c:14 Setting 1 changed
+[01:00:14:403]<INF> IMS_device_settings_changed.c:36 Notified that a setting has been changed! (first)
+[01:00:17:412]<INF> IMS_device_settings_changed.c:51 Emitting that settings have been changed!
+[01:00:19:389]<INF> device_nvm.c:57 Timer expired, will write settings to NVM
+[01:00:19:396]<DBG> device_nvm.c:171 I would write to the NVM now!
+[01:00:19:403]<DBG> device_nvm.c:67 Identifier 1 has changed, start 0x18a11 of size 4 to be written
+[01:00:19:417]<DBG> sodaq_nvs.c:18 Managed to open s00001 for writing
+[01:00:19:424]<DBG> sodaq_nvs.c:21 Succeeded in writing 4 bytes
+[01:00:19:431]<DBG> device_nvm.c:67 Identifier 2 has changed, start 0x18a15 of size 4 to be written
+[01:00:19:446]<DBG> sodaq_nvs.c:18 Managed to open s00002 for writing
+[01:00:19:453]<DBG> sodaq_nvs.c:21 Succeeded in writing 4 bytes
+[01:02:06:320]<DBG> app_state_machine.c:211 Timer expired, APP_INPUT_TIMER (I1) pushed
+[01:02:06:328]<DBG> app_debug.c:48 App state machine: Transition from APP_STATE_BACKOFF(S6) to APP_STATE_IDLE(S1) due to APP_INPUT_TIMER(I1)
+[01:02:06:342]<DBG> app_debug.c:65 App state machine: Entering state APP_STATE_IDLE (S1)
+[01:02:06:350]<DBG> app_state_machine.c:274 Enabling the timer (I1) for 7200s
+[01:02:06:358]<DBG> app_state_machine.c:284 Enabling the seal (I2)
+[01:02:06:361]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[01:02:06:371]<DBG> app_state_machine.c:294 Enabling accelerometer G1 (I3)
+[01:02:06:378]<DBG> IMS_lis2de12.c:264 Request for change in INT1
+[01:02:06:385]<DBG> app_state_machine.c:199 Clearing App input queue
+[01:02:06:391]<DBG> IMS_lis2de12.c:226 Config updated on INT1, but not applied as interrupt is inactive. Will be applied when activated
+[01:02:06:404]<DBG> IMS_lis2de12.c:264 Request for change in INT1
+[01:02:06:410]<DBG> IMS_lis2de12.c:205 Enabling motion detection on INT1
+[01:04:06:420]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[01:06:06:420]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[01:08:06:420]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[01:10:06:420]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[01:12:06:420]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[01:14:06:420]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[01:16:06:420]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[01:18:06:420]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[01:20:06:420]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[01:22:06:420]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[01:24:06:420]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[01:26:06:420]<DBG> IMS_seal_workaround.c:20 Seal pin still high, no cut
+[01:26:52:914]<DBG> IMS_exti.c:42 Emitting EINT1
+[01:26:52:919]<DBG> app_state_machine.c:466 Received accelerometer interrupt 1
+[01:26:52:926]<DBG> IMS_lis2de12.c:182 MOTION
+[01:26:52:931]<DBG> app_debug.c:48 App state machine: Transition from APP_STATE_IDLE(S1) to APP_STATE_CONFIRM_BACKOFF(S2) due to APP_INPUT_ACCEL(I3)
+[01:26:52:945]<DBG> app_debug.c:65 App state machine: Entering state APP_STATE_CONFIRM_BACKOFF (S2)
+[01:26:52:955]<DBG> app_state_machine.c:274 Enabling the timer (I1) for 5s
+[01:26:52:962]<DBG> app_state_machine.c:284 Enabling the seal (I2)
+[01:26:52:968]<DBG> app_state_machine.c:337 Disabling accelerometer motion input (I3)
+[01:26:52:977]<DBG> IMS_lis2de12.c:264 Request for change in INT1
+[01:26:52:983]<DBG> app_state_machine.c:199 Clearing App input queue
+[01:26:52:989]<DBG> IMS_lis2de12.c:193 Canceling interrupts on INT1

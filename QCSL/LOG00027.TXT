@@ -1,0 +1,7 @@
+[20:17:35:831]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[20:17:37:331]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[20:17:38:832]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[20:17:40:332]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[20:17:41:831]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[20:17:43:331]<INF> IMS_modem.c:29 Modem has no CSQ yet
+[20:17:44:831]<INF> IMS_modem.c:29 Modem has no CSQ yet

@@ -1,0 +1,1 @@
+[20:17:29:831]<INF> IMS_modem.c:29 Modem has no CSQ yet
