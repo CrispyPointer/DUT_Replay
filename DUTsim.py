@@ -1,5 +1,5 @@
 from socket import timeout
-from turtle import delay
+#from turtle import delay
 import serial
 import time
 from datetime import timedelta
@@ -40,10 +40,9 @@ timeC = timeB - timeA
 #print(timeC.microseconds)
 
 #Start Replaying !!
-with open('LOG00258.txt') as f:
+with open('LOG00001.TXT', mode= 'r', encoding='ISO_8859_1') as f:
     previous_time = timedelta()
     current_time =  timedelta()
-
 
     for line in f.readlines():
         if (line[0] == '[' and line[13] == ']'):

@@ -1,48 +1,55 @@
-[16:06:06:922]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:08:421]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:09:921]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:11:421]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:12:921]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:14:421]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:15:922]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:17:421]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:18:921]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:20:421]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:21:921]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:23:421]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:24:922]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:26:421]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:27:921]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:29:421]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:30:921]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:32:422]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:33:921]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:35:422]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:36:921]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:38:421]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:39:934]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:41:422]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:42:921]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:44:423]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:45:921]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:47:421]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:48:921]<INF> IMS_modem.c:29 Modem has no CSQ yet
-[16:06:50:422]<INF> IMS_modem.c:29 Modem has no CSQ yet
 [16:06:51:924]<INF> modem.c:15 My IP address is 10.80.171.13
-[16:06:51:934]<INF> (0#��h0��N�|��:41 Modem has connection, disabling periodic checks
+
+[16:06:51:934]<INF> (0☻#â€žÃ¸h0Ã¸Â½NÃ²|♥Ã€Ã²:41 Modem has connection, disabling periodic checks
+
 [16:06:51:944]<INF> uplink_prep.c:182 Fetch OK, modem should have connection now!
+
 [16:06:51:953]<INF> IMS_device_settings_changed.c:36 Notified that a setting has been changed! (first)
+
 [16:06:51:964]<INF> uplink_prep.c:230 Received STATS, unsubscribing...
+
 nvram_read num: 8
+
 check_nv_valid.nv_bank 1,nvt: 8
+
 nv_flag 45494731.nv_bank 1,nvt: 8
-[NVM_INFO]check_nv_valid:NV_FLAG_1 pass 
+
+[NVM_INFO]check_nv_valid:NV_FLAG_1 pass
+
 time_count 00000004.nv_bank 1,nvt: 8
+
 chksum org: BA01 ,calc: BA01
-check_nv_valid over 
+
+check_nv_valid over
+
 check_nv_valid.nv_bank 0,nvt: 8
+
 nv_flag 45494731.nv_bank 0,nvt: 8
-[NVM_INFO]check_nv_valid:NV_FLAG_1 pass 
+
+[NVM_INFO]check_nv_valid:NV_FLAG_1 pass
+
 time_count 00000003.nv_bank 0,nvt: 8
+
 chksum org: BA01 ,calc: BA01
-check_nv_valid over 
+
+check_nv_valid over
+
+[16:06:52:022]<INF> modem_info.c:44 IMEI 866207050042435
+
+[16:06:52:032]<INF> modem_info.c:57 ICCID 89430301722116899004
+
+[16:06:52:045]<INF> uplink_prep.c:208 Received MODEMINFO, unsubscribing...
+
+[16:06:52:053]<INF> uplink_prep.c:252 Done collecting from modules
+
+[16:06:52:062]<INF> uplink_prep.c:278 Sending telemetry to qcim-data.sodaq.com:12090
+
+
+
+[16:06:52:079]<INF> modem.c:15 My IP address is 10.80.171.13
+
+[16:06:52:075]<INF> uplink_prep.c:293 CBOR payload:
+
+[16:06:52:093]<INF> (0☻#â€žÃ¸h0Ã¸Â½NÃ²|♥Ã€Ã²:41 Modem has connection, disabling periodic checks
+
+a76170a361741a036eea846163181a6172016176a2617000627377830000184d6164a461651b000313cf8b850c4361731b0000d3081859132c61637438393433303330313732323131363839393030346170781f696e7465726e65742e676d612e696f742e4d4e433030332e4d43433233322e6163b161741a037531956163190106616e016172096162086161190e9c62637419e2af6263691a01a82a0562706918cb62727038716272712e6173216263650162656300627061006270741a0001194062706419012c6169a461741a0375313c616d19077a616419e29c617311627362a261741a037531476162190d76627374a261741a0375314661631906a4
